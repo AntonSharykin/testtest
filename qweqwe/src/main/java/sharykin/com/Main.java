@@ -19,7 +19,7 @@ public class Main {
 				);
 		
 		List<SportCamp> camp=testValues.stream().filter(p->p.getName()!=null).collect(Collectors.toList());
-		System.out.println(camp.size());
+		System.out.println(camp.size());//comment for git
 	}
 
 }
